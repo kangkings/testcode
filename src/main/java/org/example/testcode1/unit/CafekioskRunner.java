@@ -2,7 +2,9 @@ package org.example.testcode1.unit;
 
 import org.example.testcode1.unit.beverage.Americano;
 import org.example.testcode1.unit.beverage.Latte;
+import org.example.testcode1.unit.order.Order;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class CafekioskRunner {
@@ -15,6 +17,8 @@ public class CafekioskRunner {
 
         int totalPrice = cafeKiosk.calculateTotalPrice();
         System.out.println(totalPrice);
+
+        Order order = cafeKiosk.createOrder(LocalDateTime.now());
 
     }
 }
