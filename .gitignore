@@ -1,0 +1,62 @@
+# Java 빌드 관련
+target/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.swp
+*.bak
+
+# 환경 파일 (보안 정보 등)
+*.env
+.env
+*.properties.local
+application-*.yml
+application-*.yaml
+
+# OS별 시스템 파일
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle-cache/
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IntelliJ 관련
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse 관련
+.classpath
+.project
+.settings/
+
+# VS Code 관련
+.vscode/
+
+# 테스트 리포트
+test-output/
+surefire-reports/
+
+# 커스터마이징한 임시 폴더
+logs/
+bin/
