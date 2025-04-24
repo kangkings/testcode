@@ -3,7 +3,7 @@ package org.example.testcode1.unit.beverage;
 public class Americano implements Beverage{
     @Override
     public String getName() {
-        return "아메리키노";
+        return "아메리카노";
     }
 
     @Override
